@@ -1,0 +1,36 @@
+/* Estilo personalizado: Tema Aria (Zenless Zone Zero) */
+
+/* Color de fondo general del pad (Cuerpo principal en tono oscuro/cyber) */
+#controller.ps4 {
+  background: radial-gradient(circle, #2b1d3d 0%, #120b1a 100%) !important;
+}
+
+/* Chasis del mando */
+.ps4 .body {
+  fill: #1a1625 !important;
+  stroke: #ff2a85 !important; /* Bordes con acento neón fucsia/magenta característico */
+  stroke-width: 2px;
+}
+
+/* Panel táctil (Touchpad) con tono vibrante y toque holográfico */
+.ps4 .touchpad {
+  fill: #2d1b4e !important;
+  stroke: #00f0ff !important; /* Detalles cian vibrantes */
+}
+
+/* Botones de dirección (D-Pad) y botones de acción (Triángulo, Círculo, Equis, Cuadrado) */
+.ps4 .dpad, .ps4 .face {
+  fill: #110e19 !important;
+}
+
+/* Joysticks analógicos con el centro iluminado en tono magenta/cian */
+.ps4 .stick {
+  fill: #ff2a85 !important;
+  stroke: #00f0ff !important;
+}
+
+/* Gatillos y R1/L1 */
+.ps4 .bumper, .ps4 .trigger {
+  fill: #2b1d3d !important;
+  stroke: #ff2a85 !important;
+}
